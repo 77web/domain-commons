@@ -14,4 +14,19 @@ namespace PHPMentors\DomainCommons\DateTime;
 
 class Term extends Period
 {
+    /**
+     * @return DateTime
+     */
+    public function getStart()
+    {
+        return $this->start;
+    }
+
+    /**
+     * @return DateTime
+     */
+    public function getEnd()
+    {
+        return $this->end;
+    }
 }
